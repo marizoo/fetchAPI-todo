@@ -1,3 +1,2 @@
-a WHAT website created with React + styled component
-+ using WHAT...
-![Screenshot of the site](./screenshots/Agensy-website-800.png)
+a todo app created with React. the data API is fetched with axios
++ using useFetch.

@@ -19,7 +19,7 @@ const Todo = () => {
         .catch( err => {
             console.log(err.message)
         })
-    },[])
+    },[id])
 
     const {id : todoId, userId, title, completed} = todoDetails || {};
     return (
@@ -28,9 +28,9 @@ const Todo = () => {
             {todoDetails && (
                 <>
                     <h1>{`the todoId is ${todoId} While the id is: ${id}`}</h1>
-            <p>{userId}</p>
-            <p>{title}</p>
-            <p>{completed}</p>
+                    <p>{userId}</p>
+                    <p>{title}</p>
+                    <p>{completed}</p>
                 </>
             )}
             
